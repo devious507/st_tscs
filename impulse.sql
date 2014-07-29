@@ -7,7 +7,7 @@ CREATE TABLE impulse(
 	mass int,
 	power int,
 	computer_required varchar(10),
-	stress_columns varchar(10),
+	ship_class varchar(20),
 	ss numeric,
 	service_date int
 );

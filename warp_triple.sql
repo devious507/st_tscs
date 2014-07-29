@@ -1,6 +1,6 @@
 DROP TABLE warp_triple;
 CREATE TABLE warp_triple(
-	warp_single_id serial primary key,
+	warp_triple_id serial primary key,
 	race varchar,
 	era char(3),
 	engine_type varchar(10),
